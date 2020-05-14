@@ -31,7 +31,6 @@ BusmallImage.prototype.render = function(){
   imageElement.art = this.alt;
   imageElement.title = this.title;
   parentElement.appendChild(imageElement);
-
 }
 
 new BusmallImage('bag', '.jpg');
@@ -85,6 +84,7 @@ function getRandomIndex(){
   return index;
 }
 
+///////helper///////
 function getRandomNumber(max){
   return Math.floor(Math.random() * max);
 }
